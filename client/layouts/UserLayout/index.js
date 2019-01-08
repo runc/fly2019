@@ -47,7 +47,7 @@ const styles = {
     minWidth: '1200px',
     height: '100vh',
     backgroundImage:
-      'url(http://xx-dev.oss-cn-beijing.aliyuncs.com/dev-static/login-bg.jpg?Expires=1546914817&OSSAccessKeyId=TMP.AQHLLweD2w7Fcy_h0Ibj9HGjwh4oaSH0hgPamCjY3wGuAMCuuwtJbKjVq5WDMC4CFQCfsukyYzcUaD2f1df_L4Sj26UNEwIVAJ5Pv1fWLvwoscOH5JJEvfJ5QySE&Signature=NmgeFxpiLYwUzmxSpzXl4QvBjww%3D)',
+      'url(http://xx-dev.oss-cn-beijing.aliyuncs.com/dev-static/login-bg.jpg)',
     backgroundSize: 'cover',
     display: 'flex',
     flexDirection: 'column',

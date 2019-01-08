@@ -5,11 +5,11 @@ export default class Logo extends Component {
   render() {
     return (
       <Link to="/" style={styles.logo}>
-        <span style={styles.brand}>LOGO</span>
+        <span style={styles.brand}>魔数</span>
         <div style={styles.workbench}>
-          设备管理
+          自助运营
           <br />
-          工作台
+          管理平台
         </div>
       </Link>
     );

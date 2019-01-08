@@ -8,6 +8,7 @@ import {
   FormError as IceFormError,
 } from '@icedesign/form-binder';
 import IceIcon from '@icedesign/icon';
+import login from '../../api/login'
 
 const { Row, Col } = Grid;
 
@@ -42,6 +43,8 @@ class UserLogin extends Component {
       if (errors) {
         return;
       }
+      console.log("======>",e)
+      login.login({"username": "abc"})
       Feedback.toast.success('登录成功');
       this.props.history.push('/');
     });

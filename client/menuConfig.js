@@ -20,19 +20,19 @@ const headerMenuConfig = [
 
 const asideMenuConfig = [
   {
-    name: '监控页',
+    name: '即时概况',
     path: '/dashboard',
   },
   {
-    name: '设备管理',
+    name: '广告收益',
     path: '/home',
   },
   {
-    name: '设备编辑',
+    name: '广告统计',
     path: '/edit',
   },
   {
-    name: '设备查看',
+    name: '广告消耗',
     path: '/view',
   },
 ];
